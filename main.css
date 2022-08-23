@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  background-color: #182026;
+}
+.header_main {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 83px;
+}
+.h1_text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+}
+.header_main p {
+  font-family: "Poppins", sans-serif;
+  color: #868686;
+  font-weight: 400;
+  font-size: 18px;
+}
+.text_Home {
+  margin-left: 90px;
+}
+.text_List {
+  margin-left: 32px;
+}
+.header_main input {
+  margin-left: 400px;
+  width: 375px;
+  height: 48px;
+  border-radius: 37px;
+  border: 0px;
+  border-color: none;
+  font-family: "Poppins", sans-serif;
+  color: #868686;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #374151;
+}
+.section1 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+  margin-left: 135px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.section1 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #868686;
+  margin-left: 135px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.carousel img {
+  width: 1170px;
+  height: 400px;
+  margin-left: 135px;
+}
+.spy_carouse {
+  z-index: 1;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  position: absolute;
+}
+.overlay {
+  z-index: 2;
+  margin-top: 24px;
+  position: relative;
+}
+.Header2 {
+  width: 571px;
+  margin-left: 182px;
+  position: relative;
+  z-index: 3;
+  margin-top: -195px;
+}
+.Header2 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  margin-top: 0px;
+}
+.Header2 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+  margin-top: 42px;
+  margin-left: 135px;
+}
+.Latest_release {
+  display: flex;
+  align-items: center;
+  margin-left: 135px;
+}
+.img_movie1 {
+  z-index: 1;
+  position: relative;
+}
+.Rectangle1 {
+  z-index: 2;
+  position: relative;
+  margin-left: -170px;
+}
+.Episode {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-top: -35px;
+  z-index: 3;
+  position: relative;
+}
+.Anime_name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.img_movie2 {
+  z-index: 1;
+  position: relative;
+}
+.Rectangle2 {
+  z-index: 2;
+  position: relative;
+  margin-left: -170px;
+}
+.movie2 {
+  width: 170px;
+  height: 305px;
+  margin-left: 30px;
+  position: relative;
+}
+.movie1 {
+  height: 305px;
+}
