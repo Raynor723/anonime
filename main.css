@@ -8,7 +8,8 @@ body {
   display: flex;
   align-items: center;
   margin-top: 32px;
-  margin-left: 83px;
+  margin: auto;
+  max-width: 1440px;
 }
 .h1_text {
   font-family: "Poppins", sans-serif;
@@ -40,6 +41,18 @@ body {
   font-weight: 400;
   font-size: 18px;
   background-color: #374151;
+}
+.section1 {
+  margin: auto;
+  max-width: 1440px;
+}
+.carousel {
+  margin: auto;
+  max-width: 1440px;
+}
+footer {
+  margin: auto;
+  max-width: 1440px;
 }
 .section1 h2 {
   font-family: "Poppins", sans-serif;
