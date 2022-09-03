@@ -8,8 +8,6 @@ body {
   display: flex;
   align-items: center;
   margin-top: 32px;
-  margin: auto;
-  max-width: 1440px;
 }
 .h1_text {
   font-family: "Poppins", sans-serif;
@@ -30,7 +28,7 @@ body {
   margin-left: 32px;
 }
 .header_main input {
-  margin-left: 400px;
+  margin-left: auto;
   width: 375px;
   height: 48px;
   border-radius: 37px;
@@ -42,40 +40,27 @@ body {
   font-size: 18px;
   background-color: #374151;
 }
-.section1 {
-  margin: auto;
-  max-width: 1440px;
-}
-.carousel {
-  margin: auto;
-  max-width: 1440px;
-}
-footer {
-  margin: auto;
-  max-width: 1440px;
-}
 .section1 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 32px;
   color: white;
-  margin-left: 135px;
   margin-top: 40px;
   margin-bottom: 0px;
+  margin-right: 0px;
 }
 .section1 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 22px;
   color: #868686;
-  margin-left: 135px;
   margin-top: 8px;
   margin-bottom: 0px;
+  margin-right: 0px;
 }
 .carousel img {
   width: 1170px;
   height: 400px;
-  margin-left: 135px;
 }
 .spy_carouse {
   z-index: 1;
@@ -114,12 +99,10 @@ h3 {
   font-size: 36px;
   color: white;
   margin-top: 42px;
-  margin-left: 135px;
 }
 .Latest_release {
   display: flex;
   align-items: center;
-  margin-left: 135px;
 }
 .img_movie1 {
   z-index: 1;
@@ -164,4 +147,20 @@ h3 {
 }
 .movie1 {
   height: 305px;
+}
+header {
+  margin: auto;
+  max-width: 1275px;
+}
+.section1 {
+  margin: auto;
+  max-width: 1170px;
+}
+.carousel {
+  margin: auto;
+  max-width: 1170px;
+}
+footer {
+  margin: auto;
+  max-width: 1170px;
 }
